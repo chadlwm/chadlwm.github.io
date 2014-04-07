@@ -1,0 +1,12 @@
+
+http://chadlwm.github.io/sitemap.txt
+http://chadlwm.github.io/pages.html
+http://chadlwm.github.io/categories.html
+http://chadlwm.github.io/tags.html
+http://chadlwm.github.io/rss.xml
+http://chadlwm.github.io/archive.html
+http://chadlwm.github.io/atom.xml
+http://chadlwm.github.io/index.html
+
+http://chadlwm.github.io/freedom/2014/04/07/test
+http://chadlwm.github.io/lessons/2011/12/29/jekyll-introduction
