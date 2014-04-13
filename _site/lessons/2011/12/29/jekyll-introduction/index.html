@@ -16,7 +16,8 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
@@ -26,7 +27,6 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-
     <!-- atom & rss feed -->
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
@@ -34,14 +34,20 @@
   </head>
 
   <body>
-    <div class="navbar">
+   <div class="navbar navbar-inverse">
       <div class="navbar-inner">
-        <div class="container-narrow">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="brand" href="/">北国的雨</a>
-          <ul class="nav">
-            
-            
-            
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+             
+             
+             
 
 
   
@@ -90,19 +96,17 @@
     
   
     
-      
-    
   
 
 
 
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container-narrow">
-
       <div class="content">
         
 <div class="page-header">
@@ -595,7 +599,7 @@ or jump right into <a href="">Usage</a> if you&rsquo;d like.</p>
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_developer = 1;
-    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    var disqus_shortname = 'chadlwm'; // required: replace example with your forum shortname
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -616,15 +620,25 @@ or jump right into <a href="">Usage</a> if you&rsquo;d like.</p>
 
       </div>
       <hr>
-      <footer>
-        <p>&copy; 2014 chad lwm
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
     </div>
-
+   <footer class="footer">
+      <div style="background:url(http://s.gravatar.com/avatar/e6de88979f0dbf78f82a8e7edbe280a3?s=80) no-repeat; border:2px solid;border-radius:50%;-moz-border-radius:25px;width:80px; height:80px;margin:0 auto;">
+        <img src="http://s.gravatar.com/avatar/e6de88979f0dbf78f82a8e7edbe280a3?s=80" style="opacity:0" />
+      </div>
+      </p>
+      <ul class="footer-links">
+          <li><a href="/">Blog</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://github.com/chadlwm" target="_blank">Github</a></li>
+          <li class="muted">·</li>
+          <li><a href="" target="_blank">About Me</a></li>
+          <li class="muted">·</li>
+          <li><a href="/rss.xml" target="_blank">RSS</a></li>
+        </ul>
+      <p>&copy; 2014 chad lwm's blog</a>
+    </footer>
+    <script src="/assets/themes/twitter/bootstrap/js/jquery.min.js"></script>
+    <script src="/assets/themes/twitter/bootstrap/js/bootstrap.min.js"></script>
     
   </body>
 </html>
